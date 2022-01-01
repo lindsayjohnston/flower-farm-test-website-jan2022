@@ -6,4 +6,12 @@
   background-color: pink;
 } */
 
+/* This is where all of the tweaks just for a website go */
 
+.appPortrait{
+  min-width: 300px;
+}
+
+.paddingBottom10px{
+  padding-bottom: 10px;
+}

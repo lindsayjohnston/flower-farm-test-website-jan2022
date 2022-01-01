@@ -31,8 +31,10 @@ class App extends React.Component {
         </button>, 
         content2:
           <div>
-            <h1>A Tri-Cities staple for over 20 years.</h1>
-            <p>Your local resource for all things garden.</p>
+            <h1 className="paddingBottom10px">A Tri-Cities staple for over 20 years.</h1>
+            
+            <p className="paddingBottom10px">Your local resource for all things garden.</p>
+           
           </div>,
         },
         { id: "location",
@@ -58,8 +60,8 @@ class App extends React.Component {
         image: aboutImage,
         content1: 
           <div>
-            <h2>Tri-Cities Flower Farm</h2>
-            <h3>Serving our community for over 20 years.</h3>
+            <h2 className="paddingBottom10px">Tri-Cities Flower Farm</h2>
+            <h3 className="paddingBottom10px">Serving our community for over 20 years.</h3>
           </div>,
         content2:
           <p>We are here to serve the Tri-Cities with the best products and knowledge available to help your garden grow!</p>

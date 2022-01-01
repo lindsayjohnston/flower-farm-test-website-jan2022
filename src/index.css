@@ -1,8 +1,8 @@
 :root{
-  --dark-color: black;
-  --main-color:  #FF6758;
+  --dark-color: #0C3B2E;
+  --main-color:  #FFBA00;
   --light-color: #FFFFFF;
-  --secondary-color: #2ECAEF;
+  --secondary-color: #6D9773;
   /* --accent-color: #5c5c5c; */
 }
 
@@ -12,12 +12,13 @@ html{
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   /* 100,400,700 font weights */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
 }
+
 
 h1{
   margin:0;
@@ -25,7 +26,7 @@ h1{
   font-size: 32px; 
 }
 
-h2, h3{
+h2, h3, p{
   margin: 0;
 }
 

@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import MainBodyLandscape from '../src/components/landscape/MainBodyLandscape/MainBodyLandscape';
 import MainBodyPortrait from '../src/components/portrait/MainBodyPortrait/MainBodyPortrait';
-import topImage from '../src/media/logos/bocaloud_first_logo_.png';
-import workImage from '../src/media/images/computer-lady-hands.png';
-import aboutImage from '../src/media/images/lindsay-glasses.png';
+import topImage from '../src/media/images/assorted-flowers.jpg';
+import locationImage from '../src/media/images/daisies.jpg';
+import aboutImage from '../src/media/images/monstera.jpg';
 import contactImage from '../src/media/images/red-phone.jpg';
 
 
@@ -27,43 +27,29 @@ class App extends React.Component {
         image: topImage,
         content1: 
         <button>
-          <a href="https://forms.gle/bZXqjd5rsD8wwTm5A" target="_blank" rel="noreferrer">Click to Get a Website By Next Week!</a> 
+          <a href="https://www.facebook.com/pages/The%20Flower%20Farm/154212651281145/" target="_blank" rel="noreferrer">Like us on Facebook!</a> 
         </button>, 
         content2:
           <div>
-            <h1>Get an affordable website - fast!</h1>
-            <p>Let's get you online.</p>
+            <h1>A Tri-Cities staple for over 20 years.</h1>
+            <p>Your local resource for all things garden.</p>
           </div>,
         },
-        { id: "work",
-        title: "Our Work",
-        image: workImage,
+        { id: "location",
+        title: "Location",
+        image: locationImage,
         content1: 
           <div>
-            <ul>
-              <li>
-                <a href="https://www.micahclay.us/" target="_blank" rel="noreferrer">
-                  Micah Clay - Musician</a>
-              </li>
-              <li>
-                <a href="https://www.vannaoh.com/" target="_blank" rel="noreferrer">
-                  Vanna Oh! - Musician</a>
-              </li>
-              <li>
-                <a href="#" target="_blank" rel="noreferrer">
-                  Nonprofit Website - Coming Soon</a>
-              </li>
-              <li>
-                <a href="#" target="_blank" rel="noreferrer">
-                  Portfolio Website - Coming Soon</a>
-              </li>
-              <li>
-                <a href="#" target="_blank" rel="noreferrer">
-                  Landscaping Business Website - Coming Soon</a>
-              </li>
-            </ul> 
-          </div>
-          
+            <p>
+            Open Everyday </p>
+            <br></br>
+            <p> 9:00AM — 5:00PM </p>
+            <br></br>
+            <p>
+            311 South Columbia Center Blvd </p>
+            <p>
+            Kennewick, WA 99336 </p>
+          </div> 
           ,
         content2: null
         },
@@ -72,21 +58,22 @@ class App extends React.Component {
         image: aboutImage,
         content1: 
           <div>
-            <h2>Lindsay Johnston</h2>
-            <h3>Small Business Owner</h3>
+            <h2>Tri-Cities Flower Farm</h2>
+            <h3>Serving our community for over 20 years.</h3>
           </div>,
         content2:
-          <p>Hi! I'm the founder of Bocaloud. For over a decade I've worked in the nonprofit and small businesss sectors. There are so many incredible organizations in need of sleek and affordable websites. I'm here to fill that need!</p>
+          <p>We are here to serve the Tri-Cities with the best products and knowledge available to help your garden grow!</p>
         },
         { id: "contact",
         title: "Contact",
         image: contactImage,
         content1: 
           <div>
-            <h3>E-mail:</h3>
-            <a href="mailto:bocaloudcontact@gmail.com" >bocaloudcontact@gmail.com</a>
+            <h3>Call Us:</h3>
+            <p>(509) 735-3232</p>
+            <br></br>
             <h3>Social:</h3>
-            <a href="https://www.instagram.com/bocaloud/" target="_blank" rel="noreferrer" >Instagram</a>
+            <a href="https://www.facebook.com/pages/The%20Flower%20Farm/154212651281145/about/?ref=page_internal" target="_blank" rel="noreferrer" >Facebook</a>
           </div>
         },
     

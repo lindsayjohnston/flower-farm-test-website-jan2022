@@ -64,6 +64,13 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    
+}
+
+.menuModalLinks a{
+    margin-bottom: 10px;
 }
 
 
